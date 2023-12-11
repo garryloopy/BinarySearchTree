@@ -13,6 +13,8 @@ import treeImplementation.BSTreeNode;
  * @author osman
  */
 public class BSTreeTest {
+    
+    //testing the utilities>BSTree file
 
     @Test
     public void testGetRoot() {
