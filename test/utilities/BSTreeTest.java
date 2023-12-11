@@ -58,34 +58,90 @@ public class BSTreeTest {
 
     @Test
     public void testContains() {
+        BSTree<Integer> tree = new BSTree<>();
+        tree.add(10);
+        assertTrue(tree.contains(10));
+        assertFalse(tree.contains(5));
     }
 
     @Test
     public void testSearch() {
+        BSTree<Integer> tree = new BSTree<>();
+        tree.add(10);
+        tree.add(15);
+        tree.add(22);
+        assertNotNull(tree.search(10));
+        assertNull(tree.search(5));
     }
 
     @Test
     public void testAdd() {
+        BSTree<Integer> tree = new BSTree<>();
+        assertTrue(tree.add(10));
     }
 
     @Test
     public void testRemoveMin() {
+        BSTree<Integer> tree = new BSTree<>();
+        assertNull(tree.removeMin());
+        tree.add(10);
+        tree.add(5);
+        assertEquals(Integer.valueOf(5), tree.removeMin().getElement());
     }
 
     @Test
     public void testRemoveMax() {
+        BSTree<Integer> tree = new BSTree<>();
+        assertNull(tree.removeMax());
+        tree.add(10);
+        tree.add(15);
+        assertEquals(Integer.valueOf(15),tree.removeMax().getElement());
     }
 
     @Test
     public void testInorderIterator() {
+        BSTree<Integer> tree = new BSTree<>();
+        tree.add(10);
+        tree.add(5);
+        tree.add(15);
+
+        Iterator<Integer> iterator = tree.inorderIterator();
+        assertTrue(iterator.hasNext()); //Inorder iterator should have elements
+
+        assertEquals(Integer.valueOf(5), iterator.next());//First element should be 5 in inorder
+        assertEquals(Integer.valueOf(10), iterator.next());//Second element should be 10 in inorder
+        assertEquals(Integer.valueOf(15), iterator.next());  //Third element should be 15 in inorder
     }
 
     @Test
     public void testPreorderIterator() {
+        BSTree<Integer> tree = new BSTree<>();
+        tree.add(10);
+        tree.add(5);
+        tree.add(15);
+
+        Iterator<Integer> iterator = tree.preorderIterator();
+        assertTrue(iterator.hasNext()); //Preorder iterator should have elements
+        
+        assertEquals(Integer.valueOf(10), iterator.next());//First element should be the root in preorder
+        assertEquals(Integer.valueOf(5), iterator.next()); //Second element should be left child in preorder
+        assertEquals(Integer.valueOf(15), iterator.next()); //Third element should be right child in preorder
+        
     }
 
     @Test
     public void testPostorderIterator() {
+        BSTree<Integer> tree = new BSTree<>();
+        tree.add(10);
+        tree.add(5);
+        tree.add(15);
+
+        Iterator<Integer> iterator = tree.postorderIterator();
+        assertTrue(iterator.hasNext()); //"Postorder iterator should have elements
+        
+        assertEquals(Integer.valueOf(5), iterator.next()); //First element should be left child in postorder
+        assertEquals(Integer.valueOf(15), iterator.next()); //Second element should be right child in postorder
+        assertEquals(Integer.valueOf(10), iterator.next()); //Third element should be the root in postorder
     }
 
 //    public class BSTreeADTImpl<E> implements BSTreeADT {
