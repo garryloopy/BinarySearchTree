@@ -3,6 +3,8 @@ package treeImplementation;
 /**
  * Represents a binary search tree node
  * @author Garry Jr
+ * @author Kevin Wong
+ * @author Zackaria Osman
  * @param <E> The type for the binary search tree node
  */
 public class BSTreeNode<E> {

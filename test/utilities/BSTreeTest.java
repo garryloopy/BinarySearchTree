@@ -10,7 +10,9 @@ import treeImplementation.BSTreeNode;
 
 /**
  *
- * @author osman
+ * @author Garry Jr
+ * @author Kevin Wong
+ * @author Zackaria Osman
  */
 public class BSTreeTest {
     

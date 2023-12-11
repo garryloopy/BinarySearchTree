@@ -5,8 +5,9 @@
 package binarysearchtree;
 
 /**
- *
- * @author garry
+ * @author Garry Jr
+ * @author Kevin Wong
+ * @author Zackaria Osman
  */
 public class BinarySearchTree {
 

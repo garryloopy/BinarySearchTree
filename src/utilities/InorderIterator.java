@@ -10,7 +10,9 @@ import treeImplementation.BSTreeNode;
 
 /**
  * An in order iteration over the contents of the tree. Elements in their natural order
- * @author garry
+ * @author Garry Jr
+ * @author Kevin Wong
+ * @author Zackaria Osman
  * @param <E> The type for contents of the tree
  */
 public class InorderIterator<E extends Comparable<? super E>> implements Iterator<E> {

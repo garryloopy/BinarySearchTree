@@ -5,6 +5,8 @@ import treeImplementation.BSTreeNode;
 /**
  * Represents a Binary Search Tree
  * @author Garry Jr
+ * @author Kevin Wong
+ * @author Zackaria Osman
  * @param <E> The type for the binary search tree
  */
 public class BSTree<E extends Comparable<? super E>> implements BSTreeADT<E>{

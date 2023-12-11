@@ -6,7 +6,9 @@ import treeImplementation.BSTreeNode;
 
 /**
  * A post order iteration over the contents of the tree. Elements are in a way that the root elements is last
- * @author garry
+ * @author Garry Jr
+ * @author Kevin Wong
+ * @author Zackaria Osman
  * @param <E> The type for the contents of the tree
  */
 public class PostorderIterator<E extends Comparable<? super E>> implements Iterator<E> {

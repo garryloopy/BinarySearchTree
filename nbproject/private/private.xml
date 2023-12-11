@@ -5,8 +5,12 @@
         <group>
             <file>file:/C:/SEMFALLSEP2023-DEC2024/OBJECTORIENTEDPROGRAMMING-3/ASSIGNNMENTS/BinarySearchTree/src/binarysearchtree/BinarySearchTree.java</file>
             <file>file:/C:/SEMFALLSEP2023-DEC2024/OBJECTORIENTEDPROGRAMMING-3/ASSIGNNMENTS/BinarySearchTree/src/treeImplementation/BSTreeNode.java</file>
+            <file>file:/C:/SEMFALLSEP2023-DEC2024/OBJECTORIENTEDPROGRAMMING-3/ASSIGNNMENTS/BinarySearchTree/src/utilities/Iterator.java</file>
             <file>file:/C:/SEMFALLSEP2023-DEC2024/OBJECTORIENTEDPROGRAMMING-3/ASSIGNNMENTS/BinarySearchTree/src/utilities/BSTreeADT.java</file>
             <file>file:/C:/SEMFALLSEP2023-DEC2024/OBJECTORIENTEDPROGRAMMING-3/ASSIGNNMENTS/BinarySearchTree/src/utilities/BSTree.java</file>
+            <file>file:/C:/SEMFALLSEP2023-DEC2024/OBJECTORIENTEDPROGRAMMING-3/ASSIGNNMENTS/BinarySearchTree/src/utilities/PreorderIterator.java</file>
+            <file>file:/C:/SEMFALLSEP2023-DEC2024/OBJECTORIENTEDPROGRAMMING-3/ASSIGNNMENTS/BinarySearchTree/src/utilities/InorderIterator.java</file>
+            <file>file:/C:/SEMFALLSEP2023-DEC2024/OBJECTORIENTEDPROGRAMMING-3/ASSIGNNMENTS/BinarySearchTree/src/utilities/PostorderIterator.java</file>
             <file>file:/C:/SEMFALLSEP2023-DEC2024/OBJECTORIENTEDPROGRAMMING-3/ASSIGNNMENTS/BinarySearchTree/test/utilities/BSTreeTest.java</file>
         </group>
     </open-files>

@@ -10,7 +10,9 @@ import treeImplementation.BSTreeNode;
 
 /**
  * A pre order iteration over the contents of the tree. Elements are presented in a way that the root elements are first
- * @author garry
+ * @author Garry Jr
+ * @author Kevin Wong
+ * @author Zackaria Osman
  * @param <E> The type for the contents of the tree
  */
 public class PreorderIterator<E extends Comparable<? super E>> implements Iterator<E> {
